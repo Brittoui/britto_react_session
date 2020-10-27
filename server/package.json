@@ -1,0 +1,27 @@
+{
+  "name": "BloodDonorManagement",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "14.10.0",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "server-start": "node ./bin/server",
+    "server-dev-start": "nodemon ./bin/www",
+    "start": "npm run server-start",
+    "devstart": "npm run server-dev-start"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hashmap": "^2.4.0",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.21.5",
+    "log4js": "^6.3.0",
+    "pg": "^8.3.3",
+    "string": "^3.3.3"
+  }
+}
